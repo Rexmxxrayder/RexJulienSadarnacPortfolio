@@ -1,11 +1,15 @@
 import "./Page.css"
+import Footer from "../Components/Footer"
 import NavBar from "../Components/NavBar"
 import ProjectsContent from "../Contents/ProjectsContent"
 function MainPage() {
-     return (
+    return (
         <>
-            <NavBar/>
-            <ProjectsContent/>
+            <NavBar />
+            <div className="PageBody">
+                <ProjectsContent />
+            </div>
+            <Footer />
         </>
     )
 }

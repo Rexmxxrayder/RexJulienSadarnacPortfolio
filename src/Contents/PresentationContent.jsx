@@ -3,16 +3,22 @@ function PresentationContent() {
     return (
         <>
             <div className="flex justify-center">
-                <div className="Impact ImgBack w-10/12 h-[600px] flex">
-                    <div className="py-4 px-4 w-1/2 text-7xl text-white">
-                        <div>
-                            (Rex)<br/> Julien <br/> Sadarnac
-                        </div>
+                <div className="ImgProgBack Impact w-10/12 h-[600px] flex">
+                    <div className="py-4 px-4 w-1/2 text-9xl text-white">
+                        <h2 className="mx-5 my-5">
+                            (Rex)
+                        </h2>
+                        <h2 className="mx-5 my-5">
+                            Julien
+                        </h2>
+                        <h2 className="mx-5 my-5">
+                            Sadarnac
+                        </h2>
                     </div>
-                    <div className="py-4 px-4 w-1/2 text-7xl text-white text-right flex flex-col-reverse">
-                        <div>
+                    <div className="py-4 px-4 w-1/2 text-9xl text-white text-right flex flex-col-reverse">
+                        <h2 className="mx-5 my-5">
                             Developper
-                        </div>
+                        </h2>
                     </div>
                 </div>
             </div>
