@@ -6,9 +6,9 @@ function Footer() {
                     <div className='h-full flex justify-center items-center'>
                         <p className="text-white text-center">Tous droits réservés © - Rex Julien Sadarnac</p>
                         <p className="text-white text-center">&nbsp;-&nbsp;</p>
-                        <a href="https://fr.linkedin.com/in/julien-sadarnac-rex" className="text-blue-800 text-center">Linkedin</a>
+                        <a href="https://fr.linkedin.com/in/julien-sadarnac-rex" className="text-blue-800 text-center" target="_blank">Linkedin</a>
                         <p className="text-white text-center">&nbsp;-&nbsp;</p>
-                        <a href="https://rex-julien-sadarnac.itch.io/" className="text-blue-800 text-center">Itch.io</a>
+                        <a href="https://rex-julien-sadarnac.itch.io/" className="text-blue-800 text-center" target="_blank">Itch.io</a>
                     </div>
                 </div>
             </div>

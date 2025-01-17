@@ -1,6 +1,5 @@
 import HeaderContent from "../Components/HeaderContent"
 import ImgCollection from "../Components/ImgCollection";
-import Section from "../Components/Section";
 function TimeBreacherContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/KWTrIBcidvQ?si=8yC8cSdoANOPA_5Y";
     const headerLogoScr = "public/Img/Content/TimeBreachers/starchain-Gazer-logo.png";
@@ -18,18 +17,19 @@ function TimeBreacherContent() {
         ["Des écrans de connexion", "public/Img/Content/TimeBreachers/Screen-Connection.png"]
     ];
 
-    const sections = [
-        [["Time Breachers"],["Time Breachers est un jeu multijoueur qui peut se jouer sur mobile ou sur navigateur Internet.",
-            "Les joueurs plongent à travers une faille temporelle composer de différents niveaux avec une équipe de trois Uchroniens (les voyageurs temporels)",
-            "Un Uchronien est composé de trois artefacts : un artefact arme, un artefact armure et un artefact utilitaire qui vont influencer ces pouvoirs et son physique. Chaque artefact a un niveau et une rareté. Le but de chaque niveau est de récupérer des éléments qui vont nous servir de monnaies d'échanges afin d'augmenter ses uchroniens ou de récupérer de nouveaux artefacts."
-        ]]
-    ]
     return (
         <>
-            <div className="pt-10 w-full flex justify-center">
+            <div id="TimeBreacherContent" className="anchor pt-10 w-full flex justify-center">
                 <div className="w-10/12">
                     <HeaderContent videoSrc={headerVideoSrc} logoSrc={headerLogoScr} titles={headerTitles} />
-                    <Section title={sections[0][0]} sections = {sections[0][1]}/>
+                    <div className="pt-5">
+                        <h3 className="text-white Impact text-5xl">Time Breachers</h3>
+                        <div className="pt-5">
+                            <p className="text-white text-xl">Time Breachers est un jeu multijoueur qui peut se jouer sur mobile ou sur navigateur Internet.</p>
+                            <p className="text-white text-xl">Les joueurs plongent à travers une faille temporelle composer de différents niveaux avec une équipe de trois Uchroniens (les voyageurs temporels)</p>
+                            <p className="text-white text-xl">Un Uchronien est composé de trois artefacts : un artefact arme, un artefact armure et un artefact utilitaire qui vont influencer ces pouvoirs et son physique. Chaque artefact a un niveau et une rareté. Le but de chaque niveau est de récupérer des éléments qui vont nous servir de monnaies d'échanges afin d'augmenter ses uchroniens ou de récupérer de nouveaux artefacts.</p>
+                        </div>
+                    </div>
                     <div className="pt-5">
                         <h3 className="text-white Impact text-5xl">Mes Missions</h3>
                         <div className="pt-5">

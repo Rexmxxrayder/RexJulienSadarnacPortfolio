@@ -11,7 +11,7 @@ function SharkTapContent() {
     ];
     return (
         <>
-            <div className="pt-10 w-full flex justify-center">
+            <div id="SharkTapContent" className="anchor pt-10 w-full flex justify-center">
                 <div className="w-10/12">
                     <HeaderContent videoSrc={headerVideoSrc} logoSrc={headerLogoScr} titles={headerTitles} />
                     <div className="pt-5">
