@@ -2,19 +2,19 @@ import HeaderContent from "../Components/HeaderContent"
 import ImgCollection from "../Components/ImgCollection";
 function TimeBreacherContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/KWTrIBcidvQ?si=8yC8cSdoANOPA_5Y";
-    const headerLogoScr = "public/Img/Content/TimeBreachers/starchain-Gazer-logo.png";
+    const headerLogoScr = "Img/Content/TimeBreachers/Starchain-Gazer-logo.png";
     const headerTitles = [
         ["Poste", "Programmeur Gameplay Stagiaire"],
         ["Durée du stage", "6 mois"],
         ["Entreprise", "Starchain Gazer"]
     ];
     const imgCollection = [
-        ["Du magasin d'artefacts temporaire du jeu", "public/Img/Content/TimeBreachers/Direct-Crafting.png"],
-        ["Du détail de ces artefacts dans le magasin", "public/Img/Content/TimeBreachers/ArtifactDetail.png"],
-        ["Des différents écrans de victoire et de défaite", "public/Img/Content/TimeBreachers/Victory_Defeat.png"],
-        ["Des leaderboards de fin de parties", "public/Img/Content/TimeBreachers/LeaderBoards.png"],
-        ["De la Fosse à création d'Uchronien", "public/Img/Content/TimeBreachers/Uchronian-Summoning.png"],
-        ["Des écrans de connexion", "public/Img/Content/TimeBreachers/Screen-Connection.png"]
+        ["Du magasin d'artefacts temporaire du jeu", "Img/Content/TimeBreachers/Direct-Crafting.png"],
+        ["Du détail de ces artefacts dans le magasin", "Img/Content/TimeBreachers/ArtifactDetail.png"],
+        ["Des différents écrans de victoire et de défaite", "Img/Content/TimeBreachers/Victory_Defeat.png"],
+        ["Des leaderboards de fin de parties", "Img/Content/TimeBreachers/LeaderBoards.png"],
+        ["De la Fosse à création d'Uchronien", "Img/Content/TimeBreachers/Uchronian-Summoning.png"],
+        ["Des écrans de connexion", "Img/Content/TimeBreachers/Screen-Connection.png"]
     ];
 
     return (
@@ -52,8 +52,8 @@ function TimeBreacherContent() {
                             <p className="text-white text-xl">J'ai ainsi pu implémenter les différents bonus comme les tremplins, les bumpers et les oreos rebondissants. Je me suis aussi occupé du système de physique du jeu composé de la valeur d'éjection de chaque joueur en fonction de la quantité de dégâts reçu. J'ai sur ce projet été à mi-temps programmeur et à mi-temps game designer.</p>
                         </div>
                         <div className="pt-3 flex flex-row justify-between">
-                            <img className="w-[47%]" src="public\Img\Content\TimeBreachers\Cooked-Out.jpeg"></img>
-                            <img className="w-[47%]" src="public\Img\Content\TimeBreachers\Cooked-Out2.jpg"></img>
+                            <img className="w-[47%]" src="Img/Content/TimeBreachers/Cooked-Out.jpeg"></img>
+                            <img className="w-[47%]" src="Img/Content/TimeBreachers/Cooked-Out2.jpg"></img>
                         </div>
                     </div>
                 </div>

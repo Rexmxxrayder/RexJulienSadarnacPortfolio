@@ -1,8 +1,10 @@
+import React, { useEffect } from 'react';
+import * as THREE from 'three';
+import { Canvas } from '@react-three/fiber';
 function ThreeJSContent() {
-
     return (
         <>
-            ThreeJS
+            {/* <Canvas style= {{ height</Canvas> */}
         </>
     )
 }

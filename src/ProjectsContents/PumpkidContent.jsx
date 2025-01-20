@@ -1,7 +1,7 @@
 import HeaderContent from "../Components/HeaderContent"
 function PumpkidContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/Xd5NEFvwfhY?si=FpK-5F12BrBGOwnz";
-    const headerLogoScr = "public/Img/Content/Pumpkid/PumpkidLogo.png";
+    const headerLogoScr = "Img/Content/Pumpkid/PumpkidLogo.png";
     const headerTitles = [
         ["Type", "Projet de fin de Master 1"],
         ["Genre", "Visual novel / Boss rush"],
@@ -38,13 +38,13 @@ function PumpkidContent() {
                             </div>
                             <p className="pt-5 text-white text-xl">Je me suis aussi occupé de l'interface des différents menus en mode boss rush qui gèrent le son et les graphismes ainsi que le menu start du jeu.</p>
                             <div className="pt-5 flex justify-center items-center">
-                                <img className="h-[230px] " src="public\Img\Content\Pumpkid\Start-menu.png"></img>
-                                <img className="h-[230px] " src="public\Img\Content\Pumpkid\Graphism-menu.png"></img>
-                                <img className="h-[230px] " src="public\Img\Content\Pumpkid\Sounds-menu.png"></img>
+                                <img className="h-[230px] " src="Img/Content/Pumpkid/Start-menu.png"></img>
+                                <img className="h-[230px] " src="Img/Content/Pumpkid/Graphism-menu.png"></img>
+                                <img className="h-[230px] " src="Img/Content/Pumpkid/Sounds-menu.png"></img>
                             </div >
                             <div className="pt-5 flex justify-evenly items-center">
                                 <a href="https://kevin-i.itch.io/pumpkid" target="_blank">
-                                    <img className="h-52 rounded-lg" src="public\Img\Content\Miscellaneous\\itch-io-logo.jpg"></img>
+                                    <img className="h-52 rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg"></img>
                                 </a>
                             </div>
                         </div >

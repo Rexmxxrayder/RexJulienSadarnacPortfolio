@@ -1,7 +1,7 @@
 import HeaderContent from "../Components/HeaderContent"
 function SharkTapContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/8ZILz87p6Dg?si=5YRAzzI--J9QHJaf";
-    const headerLogoScr = "public/Img/Content/SharkTap/SharkTapLogo.png";
+    const headerLogoScr = "Img/Content/SharkTap/SharkTapLogo.png";
     const headerTitles = [
         ["Type", "Game Jam"],
         ["Genre", "Casual Game"],
@@ -30,7 +30,7 @@ function SharkTapContent() {
                             <p className="text-white text-xl">Je me suis occupé de l'adapation du jeu pour WebGL, chose que je n'avait jamais faite auparavant.</p>
                             <div className="pt-5 flex justify-evenly items-center">
                                 <a href="https://wizerdy.itch.io/tap-shark" target="_blank">
-                                    <img className="h-52 rounded-lg" src="public\Img\Content\Miscellaneous\itch-io-logo.jpg"></img>
+                                    <img className="h-52 rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg"></img>
                                 </a>
                             </div>
                         </div >

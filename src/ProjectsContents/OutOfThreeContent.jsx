@@ -1,7 +1,7 @@
 import HeaderContent from "../Components/HeaderContent"
 function OutOfThreeContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/_x9afEZYeYU?si=uF9xwdsARPmZ_VXY";
-    const headerLogoScr = "public/Img/Content/OutOfThree/OutOfThreeLogo.png";
+    const headerLogoScr = "Img/Content/OutOfThree/OutOfThreeLogo.png";
     const headerTitles = [
         ["Type", "Projet de fin d'étude"],
         ["Genre", "Boss Rush Local Multijoueur"],
@@ -38,11 +38,11 @@ function OutOfThreeContent() {
                                 </div>
                                 <p className="pt-5 text-white text-xl">La création des animations à partir des assets des Game Art et l'intégration de celle-ci en fonction des évènements survenant lors de la partie :</p>
                                 <div className="flex h-50 justify-evenly items-center">
-                                    <img className="w-[14%]" src="public\Img\Content\OutOfThree\Boss-Anim-Ball.gif"></img>
-                                    <img className="w-[12%]" src="public\Img\Content\OutOfThree\Boss-Attaque-1.gif"></img>
-                                    <img className="w-[17%]" src="public\Img\Content\OutOfThree\Boss-Attaque-2.gif"></img>
-                                    <img className="w-[15%]" src="public\Img\Content\OutOfThree\Boss-Attaque-3.gif"></img>
-                                    <img className="w-[14%]" src="public\Img\Content\OutOfThree\Boss-Tp.gif"></img>
+                                    <img className="w-[14%]" src="Img/Content/OutOfThree/Boss-Anim-Ball.gif"></img>
+                                    <img className="w-[12%]" src="Img/Content/OutOfThree/Boss-Attaque-1.gif"></img>
+                                    <img className="w-[17%]" src="Img/Content/OutOfThree/Boss-Attaque-2.gif"></img>
+                                    <img className="w-[15%]" src="Img/Content/OutOfThree/Boss-Attaque-3.gif"></img>
+                                    <img className="w-[14%]" src="Img/Content/OutOfThree/Boss-Tp.gif"></img>
                                 </div>
                                 <p className="pt-5 text-white text-xl">La création des différentes entités associées à celle-ci ainsi que leurs interactions avec les joueurs :</p>
                                 <div className="w-3/4 mx-auto flex flex-col">
@@ -53,10 +53,10 @@ function OutOfThreeContent() {
                                         <p className="w-1/4 pb-5 text-white text-2xl text-center">Les Pièges (supprimés)</p>
                                     </div>
                                     <div className="flex h-28 justify-around items-center">
-                                        <img className="w-1/12 justify-self-center" src="public\Img\Content\OutOfThree\ball-anim.gif"></img>
-                                        <img className="w-1/12 object-contain" src="public/Img/Content/OutOfThree/Arrow.png" alt="Arrow" />
-                                        <img className="h-36 " src="public\Img\Content\OutOfThree\Spark-anim.gif"></img>
-                                        <img className="w-1/12" src="public\Img\Content\OutOfThree\trap-anim.gif"></img>
+                                        <img className="w-1/12 justify-self-center" src="Img/Content/OutOfThree/ball-anim.gif"></img>
+                                        <img className="w-1/12 object-contain" src="Img/Content/OutOfThree/Arrow.png" alt="Arrow" />
+                                        <img className="h-36 " src="Img/Content/OutOfThree/Spark-anim.gif"></img>
+                                        <img className="w-1/12" src="Img/Content/OutOfThree/trap-anim.gif"></img>
                                     </div>
                                 </div>
                                 <p className="pt-5 text-white text-xl">La mise en place d'un systeme permettant au game designer de choisir les attaques correspondants a chacunes des 10 phases.</p>
@@ -65,19 +65,19 @@ function OutOfThreeContent() {
                             <h3 className="pt-5 text-white Impact text-5xl">Mes Autres Missions</h3>
                             <div className="pt-5 flex items-center">
                                 <p className="text-white text-xl">- Prototyper les Poings de Sang :</p>
-                                <img className="pl-10 h-20" src="public\Img\Content\OutOfThree\FistHit.gif"></img>
+                                <img className="pl-10 h-20" src="Img/Content/OutOfThree/FistHit.gif"></img>
                             </div>
                             <p className="pt-5 text-white text-xl">- Participer à la conception du systeme de physique qui régit les déplacements, projections et forces du jeu.</p>
                             <p className="pt-5 text-white text-xl">- Integrer certaines interfaces du jeu :</p>
                             <div className="pt-5 flex justify-center items-center">
-                                <img className="w-full" src="public\Img\Content\OutOfThree\OutOfThreeHealth.png"></img>
+                                <img className="w-full" src="Img/Content/OutOfThree/OutOfThreeHealth.png"></img>
                             </div>
                             <div className="pt-10 flex justify-evenly items-center">
                                 <a href="https://store.steampowered.com/app/2226030/Out_of_Three/" target="_blank">
-                                    <img className="h-52" src="public\Img\Content\\Miscellaneous\Steam_icon_logo-svg.png" ></img>
+                                    <img className="h-52" src="Img/Content/Miscellaneous/Steam_icon_logo-svg.png" ></img>
                                 </a>
                                 <a href="https://victorhamcha.itch.io/out-of-three" target="_blank">
-                                    <img className="h-52 rounded-lg" src="public\Img\Content\Miscellaneous\itch-io-logo.jpg" ></img>
+                                    <img className="h-52 rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg" ></img>
                                 </a>
                             </div>
                         </div>

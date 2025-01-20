@@ -570,8 +570,8 @@ video {
   left: 90px;
 }
 
-.right-\[-200px\] {
-  right: -200px;
+.right-\[-300px\] {
+  right: -300px;
 }
 
 .top-0 {
@@ -580,6 +580,10 @@ video {
 
 .top-4 {
   top: 1rem;
+}
+
+.right-\[-190px\] {
+  right: -190px;
 }
 
 .mx-5 {
@@ -713,6 +717,10 @@ video {
 
 .animate-bounceX {
   animation: bounceX 1s ease-in-out infinite;
+}
+
+.resize {
+  resize: both;
 }
 
 .flex-row {
@@ -860,11 +868,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-800 {

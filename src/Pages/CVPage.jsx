@@ -7,10 +7,10 @@ function MainPage() {
             <NavBar />
             <div className="PageBody">
                 <div className="pt-5 flex justify-center">
-                    <a className="w-1/2 relative" href="public\Img\Content\CV\CV_Julien_Sadarnac_Developer.pdf" target="_blank">
-                        <img className="" src="public\Img\Content\CV\CV_Julien_Sadarnac_Developer.png">
+                    <a className="w-1/2 relative" href="Img/Content/CV/CV_Julien_Sadarnac_Developer.pdf" target="_blank">
+                        <img className="" src="Img/Content/CV/CV_Julien_Sadarnac_Developer.png">
                         </img>
-                        <p className="animate-bounceX absolute top-0 right-[-200px] text-white Impact text-5xl"> &lt;-Cliquez</p>
+                        <p className="animate-bounceX absolute top-0 right-[-190px] text-white Impact text-5xl"> &lt;-Cliquez</p>
                     </a>
                 </div>
             </div>
