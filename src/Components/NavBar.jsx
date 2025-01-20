@@ -16,6 +16,7 @@ function NavBar() {
           )}
           <Link className="text-white text-3xl px-20" to="/CV">CV</Link>
           <Link className="text-white text-3xl px-20" to="/Contacts">Contacts</Link>
+          <Link className="text-white text-3xl px-20" to="/3JS">3JS</Link>
         </div>
       </div>
     </>

@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
+import * as THREE from 'three';
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import App from './App.jsx'
-// import "./output.css";
+import './main.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

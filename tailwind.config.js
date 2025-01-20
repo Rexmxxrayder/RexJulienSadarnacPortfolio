@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'bounce-x': 'bounceX 1s ease-in-out infinite'
+        bounceX: 'bounceX 1s ease-in-out infinite'
       },
       keyframes: {
         bounceX: {
-          '0%, 100%': { transform: 'translateX(0)' },
+          '0%, 100%': { transform: 'translateX(0px)' },
           '50%': { transform: 'translateX(20px)' }
         }
       }

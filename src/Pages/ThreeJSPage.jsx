@@ -1,17 +1,17 @@
 import "./Page.css"
 import Footer from "../Components/Footer"
 import NavBar from "../Components/NavBar"
-import ProjectsContent from "../ProjectsContents/ProjectsContent"
-function MainPage() {
+import ThreeJSContent from "../ThreeJS/ThreeJSContent.jsx"
+function ThreeJSPage() {
     return (
         <>
             <NavBar />
             <div className="PageBody">
-                <ProjectsContent />
+                <ThreeJSContent />
             </div>
             <Footer />
         </>
     )
 }
 
-export default MainPage
+export default ThreeJSPage
