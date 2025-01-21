@@ -2,9 +2,9 @@ function HeaderContent({ videoSrc, logoSrc, titles }) {
   const createTitles = () => {
     return titles.map((title) => {
       return (
-        <div className="pt-4 flex flex-row items-baseline" key={title[0] + title[1]}>
-          <p className="text-white font-bold text-2xl text-nowrap">{title[0] + " :"}&nbsp;</p>
-          <p className="text-white text-2xl">{title[1]}</p>
+        <div className="pt-1 lg:pt-3 flex flex-col items-baseline sm:flex-row" key={title[0] + title[1]}>
+          <p className="text-white font-bold text-[10px] md:text-base lg:text-2xl text-nowrap ">{title[0] + " :"}&nbsp;</p>
+          <p className="text-white text-[10px] md:text-base lg:text-2xl">{title[1]}</p>
         </div>
       );
     });

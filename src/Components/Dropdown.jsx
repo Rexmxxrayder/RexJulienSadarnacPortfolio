@@ -12,11 +12,11 @@ function Dropdown({ title }) {
 
     return (
         <>
-            <div className="px-20 dropdown" onPointerLeave={() => setIsOpen(false)}>
+            <div className="px-8 sm:px-20 dropdown" onPointerLeave={() => setIsOpen(false)}>
                 <button>
                     <div className="relative flex items-center" onClick={toggleDropdown}>
-                        <span className="text-white text-3xl">{title}</span>
-                        <img className="pl-2 h-4 absolute top-4 left-[90px]" src="Img/Content/Miscellaneous/Arrow_Down.png"></img>
+                        <span className="text-white text-xl sm:text-3xl">{title}</span>
+                        <img className="pl-2 h-2 sm:h-4 absolute top-4 left-[60px] sm:left-[90px]" src="Img/Content/Miscellaneous/Arrow_Down.png"></img>
                     </div>
                 </button>
                 {isOpen && (

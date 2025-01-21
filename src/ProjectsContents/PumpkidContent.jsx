@@ -38,13 +38,13 @@ function PumpkidContent() {
                             </div>
                             <p className="pt-5 text-white text-xl">Je me suis aussi occupé de l'interface des différents menus en mode boss rush qui gèrent le son et les graphismes ainsi que le menu start du jeu.</p>
                             <div className="pt-5 flex justify-center items-center">
-                                <img className="h-[230px] " src="Img/Content/Pumpkid/Start-menu.png"></img>
-                                <img className="h-[230px] " src="Img/Content/Pumpkid/Graphism-menu.png"></img>
-                                <img className="h-[230px] " src="Img/Content/Pumpkid/Sounds-menu.png"></img>
+                                <img className="h-[13vw]" src="Img/Content/Pumpkid/Start-menu.png"></img>
+                                <img className="h-[13vw]" src="Img/Content/Pumpkid/Graphism-menu.png"></img>
+                                <img className="h-[13vw]" src="Img/Content/Pumpkid/Sounds-menu.png"></img>
                             </div >
                             <div className="pt-5 flex justify-evenly items-center">
                                 <a href="https://kevin-i.itch.io/pumpkid" target="_blank">
-                                    <img className="h-52 rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg"></img>
+                                    <img className="h-[20vw] rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg"></img>
                                 </a>
                             </div>
                         </div >

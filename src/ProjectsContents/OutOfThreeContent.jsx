@@ -47,10 +47,10 @@ function OutOfThreeContent() {
                                 <p className="pt-5 text-white text-xl">La création des différentes entités associées à celle-ci ainsi que leurs interactions avec les joueurs :</p>
                                 <div className="w-3/4 mx-auto flex flex-col">
                                     <div className="flex justify-between">
-                                        <p className="w-1/4 pb-5 text-white text-2xl text-center">Les Sphères</p>
-                                        <p className="w-1/4 pb-5 text-white text-2xl text-center">One For All</p>
-                                        <p className="w-1/4 pb-5 text-white text-2xl text-center">Les Éclairs</p>
-                                        <p className="w-1/4 pb-5 text-white text-2xl text-center">Les Pièges (supprimés)</p>
+                                        <p className="w-1/4 pb-5 text-white text-base sm:text-xl md:text-2xl text-center">Les Sphères</p>
+                                        <p className="w-1/4 pb-5 text-white text-base sm:text-xl md:text-2xl text-center">One For All</p>
+                                        <p className="w-1/4 pb-5 text-white text-base sm:text-xl md:text-2xl text-center">Les Éclairs</p>
+                                        <p className="w-1/4 pb-5 text-white text-base sm:text-xl md:text-2xl text-center">Les Pièges (supprimés)</p>
                                     </div>
                                     <div className="flex h-28 justify-around items-center">
                                         <img className="w-1/12 justify-self-center" src="Img/Content/OutOfThree/ball-anim.gif"></img>
@@ -74,10 +74,10 @@ function OutOfThreeContent() {
                             </div>
                             <div className="pt-10 flex justify-evenly items-center">
                                 <a href="https://store.steampowered.com/app/2226030/Out_of_Three/" target="_blank">
-                                    <img className="h-52" src="Img/Content/Miscellaneous/Steam_icon_logo-svg.png" ></img>
+                                    <img className="h-[10vw]" src="Img/Content/Miscellaneous/Steam_icon_logo-svg.png" ></img>
                                 </a>
                                 <a href="https://victorhamcha.itch.io/out-of-three" target="_blank">
-                                    <img className="h-52 rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg" ></img>
+                                    <img className="h-[10vw] rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg" ></img>
                                 </a>
                             </div>
                         </div>

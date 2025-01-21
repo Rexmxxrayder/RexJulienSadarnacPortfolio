@@ -4,7 +4,7 @@ function PresentationContent() {
         <>
             <div className="flex justify-center">
                 <div className="ImgProgBack Impact w-10/12 h-[600px] flex">
-                    <div className="py-4 px-4 w-1/2 text-9xl text-white">
+                    <div className="py-4 px-4 w-1/2 text-2xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white">
                         <h2 className="mx-5 my-5">
                             (Rex)
                         </h2>
@@ -15,7 +15,7 @@ function PresentationContent() {
                             Sadarnac
                         </h2>
                     </div>
-                    <div className="py-4 px-4 w-1/2 text-9xl text-white text-right flex flex-col-reverse">
+                    <div className="py-4 px-4 w-1/2 text-2xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white text-right flex flex-col-reverse">
                         <h2 className="mx-5 my-5">
                             Developper
                         </h2>

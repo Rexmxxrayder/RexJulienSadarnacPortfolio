@@ -10,12 +10,12 @@ function NavBar() {
             <Dropdown title="Projets" />
           )}
           {location.pathname !== '/' && (
-            <Link className="text-white text-3xl px-20" to="/">
+            <Link className="text-white text-xl sm:text-3xl px-8 sm:px-20" to="/">
               Projets
             </Link>
           )}
-          <Link className="text-white text-3xl px-20" to="/CV">CV</Link>
-          <Link className="text-white text-3xl px-20" to="/Contacts">Contacts</Link>
+          <Link className="text-white text-xl sm:text-3xl px-8 sm:px-20" to="/CV">CV</Link>
+          <Link className="text-white text-xl sm:text-3xl px-8 sm:px-20" to="/Contacts">Contacts</Link>
           {/* <Link className="text-white text-3xl px-20" to="/3JS">3JS</Link> */}
         </div>
       </div>
