@@ -1,4 +1,4 @@
-import HeaderContent from "../Components/HeaderContent"
+import HeaderContent from "../../../Components/HeaderContent"
 function OutOfThreeContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/_x9afEZYeYU?si=uF9xwdsARPmZ_VXY";
     const headerLogoScr = "Img/Content/OutOfThree/OutOfThreeLogo.png";

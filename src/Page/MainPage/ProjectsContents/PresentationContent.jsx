@@ -1,4 +1,3 @@
-import "./PresentationContent.css"
 function PresentationContent() {
     return (
         <>

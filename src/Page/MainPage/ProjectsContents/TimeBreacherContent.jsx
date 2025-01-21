@@ -1,5 +1,5 @@
-import HeaderContent from "../Components/HeaderContent"
-import ImgCollection from "../Components/ImgCollection";
+import HeaderContent from "../../../Components/HeaderContent"
+import ImgCollection from "../../../Components/ImgCollection";
 function TimeBreacherContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/KWTrIBcidvQ?si=8yC8cSdoANOPA_5Y";
     const headerLogoScr = "Img/Content/TimeBreachers/Starchain-Gazer-logo.png";

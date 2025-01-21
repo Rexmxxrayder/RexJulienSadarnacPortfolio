@@ -1,4 +1,4 @@
-import HeaderContent from "../Components/HeaderContent"
+import HeaderContent from "../../../Components/HeaderContent"
 function SharkTapContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/8ZILz87p6Dg?si=5YRAzzI--J9QHJaf";
     const headerLogoScr = "Img/Content/SharkTap/SharkTapLogo.png";

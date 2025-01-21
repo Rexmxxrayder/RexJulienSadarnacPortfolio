@@ -1,4 +1,4 @@
-import HeaderContent from "../Components/HeaderContent"
+import HeaderContent from "../../../Components/HeaderContent"
 function PumpkidContent() {
     const headerVideoSrc = "https://www.youtube.com/embed/Xd5NEFvwfhY?si=FpK-5F12BrBGOwnz";
     const headerLogoScr = "Img/Content/Pumpkid/PumpkidLogo.png";

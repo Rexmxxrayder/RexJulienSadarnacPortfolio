@@ -1,7 +1,6 @@
-import "./Page.css"
-import Footer from "../Components/Footer"
-import NavBar from "../Components/NavBar"
-import ThreeJSContent from "../ThreeJS/ThreeJSContent.jsx"
+import Footer from "../../Components/Footer.jsx"
+import NavBar from "../../Components/NavBar/NavBar"
+import ThreeJSContent from "./ThreeJSContent.jsx"
 function ThreeJSPage() {
     return (
         <>
