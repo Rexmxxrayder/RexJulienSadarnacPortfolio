@@ -14,7 +14,7 @@ function App() {
             <Route path="CV" element={<CVBody />} />
             <Route path="Contacts" element={<ContactBody />} />
           </Route >
-          {/* <Route path="/3JS" element={<ThreeJSPage />} /> */}
+          <Route path="/3JS" element={<ThreeJSPage />} />
         </Routes>
       </BrowserRouter>
     </>

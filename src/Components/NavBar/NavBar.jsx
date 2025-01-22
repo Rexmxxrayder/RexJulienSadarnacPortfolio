@@ -13,9 +13,9 @@ function NavBar() {
       <div className="NavBar sticky top-0 w-full h-20">
         <div className='h-full flex justify-evenly items-center'>
           <NavDropdownItem route="/" text="Projets" dropdown={dropdown} />
-          <NavItem route="/CV" text="CV"/>
+          <NavItem route="/CV" text="CV" />
           <NavItem route="/Contacts" text="Contacts" />
-          {/* <NavItem route="/3JS" text="3JS" /> */}
+          <NavItem route="/3JS" text="3JS" />
         </div>
       </div>
     </>

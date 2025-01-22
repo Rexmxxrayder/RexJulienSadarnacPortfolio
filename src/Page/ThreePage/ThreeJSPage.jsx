@@ -1,15 +1,11 @@
-import Footer from "../../Components/Footer.jsx"
-import NavBar from "../../Components/NavBar/NavBar"
-import ThreeJSContent from "./ThreeJSContent.jsx"
-function ThreeJSPage() {
+import React from "react";
+import ThreeJSNavBar from "./NavBar/ThreeJSNavBar.jsx";
+import "../../ThreeJSIndex.css";
+const ThreeJSPage = () => {
     return (
-        <>
-            <NavBar />
-            <div className="PageBody">
-                <ThreeJSContent />
-            </div>
-            <Footer />
-        </>
+        <main className="max-w-7xl mx-auto">
+            <ThreeJSNavBar/>
+        </main>
     )
 }
 
