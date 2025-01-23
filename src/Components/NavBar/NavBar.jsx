@@ -15,7 +15,7 @@ function NavBar() {
           <NavDropdownItem route="/" text="Projets" dropdown={dropdown} />
           <NavItem route="/CV" text="CV" />
           <NavItem route="/Contacts" text="Contacts" />
-          <NavItem route="/3JS" text="3JS" />
+          {/* <NavItem route="/3JS" text="3JS" /> */}
         </div>
       </div>
     </>

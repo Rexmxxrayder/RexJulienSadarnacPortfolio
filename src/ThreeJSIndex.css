@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #010103;
+  /* background: #010103; */
   font-family: 'General Sans', sans-serif;
 }
 
@@ -199,4 +199,10 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.vladimir {
+  background-image: url('ThreeJS/Cosmic_Devourer_Vladimir.jfif');
+  background-size: cover;
+  background-position: center;
 }
