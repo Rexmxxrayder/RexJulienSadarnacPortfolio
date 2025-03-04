@@ -7,6 +7,9 @@ function MainPage() {
                 <a href="https://fr.linkedin.com/in/julien-sadarnac-rex" target="_blank">
                     <img className="h-[20vw]" src="Img/Content/Miscellaneous/LinkedinLogo.png" ></img>
                 </a>
+                <a href="https://github.com/Rexmxxrayder" target="_blank">
+                    <img className="h-[20vw] rounded-lg" src="Img/Content/Miscellaneous/GitHub-logo.png" ></img>
+                </a>
                 <a href="https://rex-julien-sadarnac.itch.io/" target="_blank">
                     <img className="h-[20vw] rounded-lg" src="Img/Content/Miscellaneous/itch-io-logo.jpg" ></img>
                 </a>

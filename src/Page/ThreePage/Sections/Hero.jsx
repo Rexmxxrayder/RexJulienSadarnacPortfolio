@@ -19,10 +19,10 @@ const Hero = () => {
     return (
         <>
             <section className="min-h-screen w-full flex flex-col relative">
-                <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
+                <div className="w-full mx-auto flex flex-col sm:mt-18 mt-10 c-space gap-3">
                     <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">Call me Rex<span className="waving-hand">👋</span></p>
-                    <p className="hero_tag text-gray_gradient">Ultime Vortex</p>
-                    <div className="w-full h-full absolute inset-0">
+                    <p className="hero_tag text-gray_gradient">ThreeJS</p>
+                    <div className="w-full h-[1000px] inset-0">
                         <Canvas className="w-full h-full">
                             <Suspense fallback={<CanvasLoader />}>
                                 <PerspectiveCamera makeDefault position={[0, 0, 20]} />

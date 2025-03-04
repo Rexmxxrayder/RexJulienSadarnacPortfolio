@@ -16,7 +16,7 @@ function PresentationContent() {
                     </div>
                     <div className="py-4 px-4 w-1/2 text-2xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white text-right flex flex-col-reverse">
                         <h2 className="mx-5 my-5">
-                            Developper
+                            Web & Game Developer
                         </h2>
                     </div>
                 </div>

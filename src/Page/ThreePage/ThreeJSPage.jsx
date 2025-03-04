@@ -5,10 +5,10 @@ import Champion from "./Sections/Champion.jsx";
 import "../../ThreeJSIndex.css";
 const ThreeJSPage = () => {
     return (
-        <main className="max-w-7xl mx-auto">
-            <ThreeJSNavBar/>
-            {/* <Hero/> */}
-            <Champion/>
+        <main className="mx-auto">
+            {/* <ThreeJSNavBar/> */}
+            <Hero/>
+            {/* <Champion/> */}
         </main>
     )
 }

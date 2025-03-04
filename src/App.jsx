@@ -13,8 +13,8 @@ function App() {
             <Route path="" element={<ProjectsBody />} />
             <Route path="CV" element={<CVBody />} />
             <Route path="Contacts" element={<ContactBody />} />
+            {/* <Route path="3JS" element={<ThreeJSPage />} /> */}
           </Route >
-          <Route path="/Vladimir" element={<ThreeJSPage />} />
         </Routes>
       </BrowserRouter>
     </>
